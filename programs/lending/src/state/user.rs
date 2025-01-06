@@ -13,7 +13,7 @@ pub struct User{
   pub borrowed_usdc: u64,
   pub borrowed_usdc_shares: u64,
   pub usdc_address: Pubkey, //you want to store the USDC mint address so we can check in instructions if the user is it USDC or Sol
-  pub last_update: i64, //timestamp
+  pub last_updated: i64, //timestamp
   
 
 }
